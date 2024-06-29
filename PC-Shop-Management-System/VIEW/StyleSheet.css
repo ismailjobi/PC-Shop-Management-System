@@ -1,0 +1,131 @@
+.errorMsg {
+    text-align: center;
+    color: red;
+}
+
+.header_border {
+    text-align: center;
+    margin: 12px 10px 10px 12px;
+    padding: 15px 20px 20px 15px;
+    border: 2px solid blue;
+}
+
+a.nav:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a.nav:hover {
+    color: black;
+}
+
+a.nav:active {
+    color: blueviolet;
+}
+
+a.manu:link {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a.manu:hover,
+a.manu:active {
+    /*background-color: cyan;*/
+    color: black;
+}
+
+
+a.linkButton:link {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 5px 5px;
+    margin: 12px 10px 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a.linkButton:hover,
+a.linkButton:active {
+    /*background-color: cyan;*/
+    color: black;
+}
+
+.body_border {
+
+    margin: 12px 10px 10px 12px;
+    padding: 15px 20px 20px 15px;
+    border: 2px solid blue;
+}
+
+table.data {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th.data,
+td.data {
+    text-align: center;
+    padding: 2px;
+}
+
+tr.data:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th.data {
+    background-color: #04AA6D;
+    color: white;
+}
+
+input[type=text]:focus,
+textarea:focus,
+input[type=password]:focus,
+input[type=date]:focus,
+input[type=email]:focus,
+select:focus {
+    background-color: lightblue;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+
+label {
+    padding: 2px 2px 2px 0;
+    display: inline-block;
+}
+
+button,
+a.backButton:link {
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover,
+a.backButton:hover {
+    background-color: #45a049;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
